@@ -8,11 +8,11 @@
 </script>
 
 <section>
-	<h1>Scene 3</h1>
+	<h1>Scene C</h1>
 </section>
 
 <svelte:head>
-	<title>Scene 3</title>
+	<title>Scene C</title>
 </svelte:head>
 
 <style>

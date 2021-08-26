@@ -56,13 +56,13 @@
 </script>
 
 <section>
-	<h1>Scene 1</h1>
+	<h1>Scene A</h1>
 	<label>
 		visible
 		<input bind:checked={visible} type="checkbox" />
 	</label>
 	{#if visible}
-		<svg
+		<svgF
 			xmlns="http://www.w3.org/2000/svg"
 			class="icon icon-tabler icon-tabler-sun"
 			id="icon-tabler-sun"
@@ -81,12 +81,12 @@
 				id="outer-dashes"
 				d="M3 12h1m8 -9v1m8 8h1m-9 8v1m-6.4 -15.4l.7 .7m12.1 -.7l-.7 .7m0 11.4l.7 .7m-12.1 -.7l-.7 .7"
 			/>
-		</svg>
+		</svgF>
 	{/if}
 </section>
 
 <svelte:head>
-	<title>Scene1</title>
+	<title>Scene A</title>
 </svelte:head>
 
 <style>

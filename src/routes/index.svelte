@@ -28,9 +28,9 @@
 <section>
 	<h1 id="welcome-text">Welcome to this demo</h1>
 	<div class="scene-menu">
-		<a href="/scene1" id="scene-1-button" class="scene-button">Scene1</a>
-		<a href="/scene2" id="scene-2-button" class="scene-button">Scene2</a>
-		<a href="/scene3" id="scene-3-button" class="scene-button">Scene3</a>
+		<a href="/sceneA" class="scene-button">Scene A</a>
+		<a href="/sceneB" class="scene-button">Scene B</a>
+		<a href="/sceneC" class="scene-button">Scene C</a>
 	</div>
 </section>
 

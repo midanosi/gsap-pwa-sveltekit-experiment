@@ -10,14 +10,14 @@
 		<ul>
 			<li class:active={$page.path === '/'}><a sveltekit:prefetch href="/">Home</a></li>
 			<li class:active={$page.path === '/about'}><a sveltekit:prefetch href="/about">About</a></li>
-			<li class:active={$page.path === '/scene1'}>
-				<a sveltekit:prefetch href="/scene1">Scene1</a>
+			<li class:active={$page.path === '/sceneA'}>
+				<a sveltekit:prefetch href="/sceneA">Scene A</a>
 			</li>
-			<li class:active={$page.path === '/scene2'}>
-				<a sveltekit:prefetch href="/scene2">Scene2</a>
+			<li class:active={$page.path === '/sceneB'}>
+				<a sveltekit:prefetch href="/sceneB">Scene B</a>
 			</li>
-			<li class:active={$page.path === '/scene3'}>
-				<a sveltekit:prefetch href="/scene3">Scene3</a>
+			<li class:active={$page.path === '/sceneC'}>
+				<a sveltekit:prefetch href="/sceneC">Scene C</a>
 			</li>
 		</ul>
 		<svg viewBox="0 0 2 2" aria-hidden="true">
