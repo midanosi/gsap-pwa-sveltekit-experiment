@@ -26,7 +26,7 @@
 		tl.addLabel('start')
 			.from('#intro-text-layer', { autoAlpha: 0 })
 			.addLabel('intro')
-			.to('#intro-text-layer', { autoAlpha: 0 }, '+=1')
+			.to('#intro-text-layer', { autoAlpha: 0 }, '+=2')
 			.from('#outside-house-layer', { autoAlpha: 0 })
 			.from('#house', { autoAlpha: 0 })
 			.from('#sun', { autoAlpha: 0 })
@@ -47,17 +47,17 @@
 					ease: 'ease.in',
 					opacity: 0
 				},
-				'-=0.2'
+				'-=0.4'
 			)
 			.addLabel('house');
-		tl.play('intro');
+		tl.play();
 		// tl.play('house');
 	});
 </script>
 
 <section id="gsap-debugger">
-	<span>gsap debugger</span>
-	<span>current label: {currentLabel}</span>
+	<span>gsap current label</span>
+	<h1>{currentLabel}</h1>
 </section>
 <section id="animation-surface">
 	<div id="intro-text-layer">
@@ -118,6 +118,12 @@
 		align-items: center;
 		flex: 1;
 	}
+	.textbox {
+		padding: 1rem;
+		border: 3px solid maroon;
+		border-radius: 20px;
+	}
+
 	#animation-surface {
 		position: relative;
 		width: 100%;
